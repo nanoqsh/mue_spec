@@ -54,6 +54,7 @@ The ability to save and restore **context**.
 The method of signed number representation is **Two's complement**.
 
 An example of the representation of numbers in MCPU:
+
 | Unsigned decimal   | Signed decimal   | Binary              |
 |:------------------:|:----------------:|:-------------------:|
 | 0                  | 0                | 0000_0000_0000_0000 |
@@ -71,6 +72,7 @@ MCPU has 10 registers (A, B, C, D, E, F, X, S, P, I) 2 bytes long (16 bit).
 These registers are usually denoted by capital letters.
 
 Each register has a name and its purpose:
+
 | Register | Name        | Purpose                                                  |
 |:--------:|:------------|:---------------------------------------------------------|
 | A        | Accumulator | General. Usually used to accumulate value.               |
