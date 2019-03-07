@@ -615,7 +615,7 @@ It will be compiled:
 
 Let's write a program for displaying message *Hello Abzal!* on display connected to port 1.
 Suppose that display output mode is value 1 to mode 1.
-Then the program will be:
+Then the program is:
 ```
 go main
 
