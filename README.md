@@ -553,18 +553,18 @@ It will be compiled as (binary):
 [ 1111 1111 1111 1111 ] (-1 as signed)
 ```
 
-Decimal literals can end with *d*.
-Binary literals must end with *b*.
-Octal literals must end with *o*.
-Hexadecimal literals can contain numbers *A*, *B*, *C*, *D*, *E*, *F* must end with *x*.
+Decimal literals can start with *0d*.
+Binary literals must start with *0b*.
+Octal literals must start with *0o*.
+Hexadecimal literals can contain numbers *A*, *B*, *C*, *D*, *E*, *F* must begin with *0x*.
 Any numeric literals can contain *_* not at the beginning.
 
 Example:
 ```
 -15d
-0010_0000_1010_1111b
-107o
-A9FFx
+0b0010_0000_1010_1111
+0o107
+0xA9FF
 ```
 
 String literal is encoded to utf-8 and supports escaping characters.
