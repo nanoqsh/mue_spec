@@ -561,7 +561,7 @@ Any numeric literals can contain *_* not at the beginning.
 
 Example:
 ```
--15d
+-0d15
 0b0010_0000_1010_1111
 0o107
 0xA9FF
